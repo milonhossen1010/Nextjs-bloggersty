@@ -19,7 +19,7 @@ export default function Featured() {
     <div className="py-12 md:py-20 ">
       <Container>
         <Heading title="Featured in" className="text-center" />
-          <div className="grid sm:grid-cols-2 md:grid-cols-5 items-center justify-between mt-10">
+          <div className="grid grid-cols-2 md:grid-cols-5 items-center justify-between mt-10">
               {
                   clients.map((item)=> <Image key={item.id} src={item.link} width={300} height={250} alt={item.alt} className="hover:opacity-60 w-40" /> )
               }

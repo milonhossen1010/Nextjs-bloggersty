@@ -1,7 +1,7 @@
-import Image from "next/image"
+import Image from 'next/image';
 import banner from '../images/banner.jpg';
 
-import FadeIn from "./FadeIn";
+import FadeIn from './FadeIn';
 
 export default function Hero() {
   return (
@@ -13,15 +13,16 @@ export default function Hero() {
       />
       <div className=" absolute top-0 w-full h-full bg-black/30 text-gray-100 flex flex-col items-center justify-center">
         <FadeIn>
-          <h2 className="text-white text-7xl lg:text-[150px] font-bold ">Milon Hossen</h2>
+          <h2 className="text-white text-center text-5xl lg:text-[150px] font-bold ">
+            Milon Hossen
+          </h2>
         </FadeIn>
         <FadeIn>
-          <p className="text-white text-xl md:text-2xl lg:text-5xl font-semibold">
+          <p className="text-white text-xl text-center md:text-2xl lg:text-5xl font-semibold">
             Traveler, Photographer
           </p>
         </FadeIn>
       </div>
-     
     </div>
   );
 }

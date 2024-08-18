@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Container from './Container';
 import Logo from './Logo';
-import { BsFacebook, BsLinkedin, BsTwitter, BsYoutube } from 'react-icons/bs';
+import { BsFacebook, BsLinkedin, BsTwitter } from 'react-icons/bs';
 
 export default function Footer() {
    
@@ -10,16 +10,13 @@ export default function Footer() {
       <Container className="p-10  text-gray-100 flex items-center justify-between">
         <Logo title="Bloggers" className="text-white" />
         <div className="text-gray-300 hidden md:inline-flex items-center gap-7">
-          <Link href={'#'}>
-            <BsYoutube className="text-2xl hover:text-red-500 duration-200" />
-          </Link>
-          <Link href={'#'}>
+          <Link href={'https://www.facebook.com/milonhossen.live/'}>
             <BsFacebook className="text-2xl hover:text-red-500 duration-200" />
           </Link>
-          <Link href={'#'}>
+          <Link href={'https://x.com/milonhossen1010'}>
             <BsTwitter className="text-2xl hover:text-red-500 duration-200" />
           </Link>
-          <Link href={'#'}>
+          <Link href={'https://www.linkedin.com/in/milonhossen1010/'}>
             <BsLinkedin className="text-2xl hover:text-red-500 duration-200" />
           </Link>
         </div>

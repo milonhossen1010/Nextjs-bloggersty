@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Hero from '../components/Hero';
 import { groq } from 'next-sanity';
 import { client } from '@/sanity/lib/client';
