@@ -57,7 +57,7 @@ export default function BlogContent({ posts }: Props) {
                     </h2>
                     <p className="text-gray-500"> {post?.description} </p>
                   </div>
-                  <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center mt-3 gap-4">
                     <p className="text-sm font-semibold text-gray-500">
                       {new Date(post?._createdAt).toLocaleDateString('en-US', {
                         day: 'numeric',

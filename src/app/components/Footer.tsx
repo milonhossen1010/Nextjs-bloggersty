@@ -7,9 +7,9 @@ export default function Footer() {
    
   return (
     <div className="bg-black">
-      <Container className="p-10  text-gray-100 flex items-center justify-between">
+      <Container className="p-10  text-gray-100 md:flex gap-5 items-center justify-between text-center md:text-left">
         <Logo title="Bloggers" className="text-white" />
-        <div className="text-gray-300 hidden md:inline-flex items-center gap-7">
+        <div className="text-gray-300  inline-flex items-center gap-5 my-5">
           <Link href={'https://www.facebook.com/milonhossen.live/'}>
             <BsFacebook className="text-2xl hover:text-red-500 duration-200" />
           </Link>
